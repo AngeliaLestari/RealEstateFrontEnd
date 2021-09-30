@@ -8,7 +8,7 @@ Karma Mocha Chai with headless chrome
 Ensure the backend server is running<br>
 <i>cd realestate</i> <br>
 <i>npm run dev</i> <br>
-open local host post 8080
+open local host port 8080
 
 # Test
 <i>npm run unit</i> <br>
