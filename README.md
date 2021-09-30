@@ -5,6 +5,7 @@ Real Estate (Full Stack Application Front End Part with Vue JS)
 Karma Mocha Chai with headless chrome
 
 # Start  
+Ensure the backend server is running<br>
 <i>cd realestate</i> <br>
 <i>npm run dev</i> <br>
 open local host post 8080
