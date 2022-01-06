@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import realestate from '@/components/realestate'
 import Details from '@/components/Details'
 import home from '@/components/home'
+import filter from '@/components/filter'
+
 Vue.use(Router)
 
 export default new Router({
@@ -32,7 +34,11 @@ export default new Router({
         path: 'realestate',
         component: realestate
       }]
-
+    },
+    {
+      path: '/filter',
+      name: 'filter',
+      component: filter
     }
   ]
 })

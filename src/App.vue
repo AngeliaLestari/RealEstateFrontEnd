@@ -3,7 +3,7 @@
 <div class='container-md'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
-        <img alt="Brand" class="pull-left" src="@/assets/8prop-icon-horizontal.svg">
+        <img alt="Brand" class="pull-left" src="@/assets/realestate.jpg" width="100px">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
               <router-link :to="'/realestate'"><a class="nav-link" href="/realestate">Services</a></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"></a>
+              <router-link :to="'/filter'"><a class="nav-link" href="/filter">Filter</a></router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"></a>
@@ -46,4 +46,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

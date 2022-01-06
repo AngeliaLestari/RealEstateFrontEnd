@@ -60,9 +60,6 @@ export default {
     },
     size: function () {
       return this.posts.length
-    },
-
-    computed: {
     }
 
   },
